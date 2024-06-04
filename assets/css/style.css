@@ -1,0 +1,119 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* CSS Styles Reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Russo One', sans-serif;
+    background-color: #3a3a3a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#menu {
+    list-style-type: none;  
+}
+
+#menu-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #ffffff;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    background-color: transparent;
+    display: none;
+    top: 100%;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#nav-active:checked~nav {
+    display: block;
+}
+#nav-active {
+    display: none;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+
+#logo div {
+    
+}
+
+
+
+
+
+/*.logo-animation {
+    transition: all 1s ease;    
+}
+
+.logo-animation:hover {
+    transform: scale(120%, 120%);
+    
+}*/
+
+#header-transition {
+    animation: 1.5s ease 0s 1 normal forwards slidedown;
+}
+
+@keyframes slidedown {
+    0% {
+        transform: translateY(-300px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#menu {
+    animation: scaleout 0.5s ease-in-out both;
+    transform-origin: top center;
+}
+
+@keyframes scaleout {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
