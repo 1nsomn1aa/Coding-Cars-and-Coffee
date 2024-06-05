@@ -180,3 +180,12 @@ nav {
     text-align: center;
     width: 100%;
 }
+
+#join-us {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
