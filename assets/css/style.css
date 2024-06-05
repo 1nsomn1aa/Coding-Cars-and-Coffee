@@ -25,7 +25,6 @@ a {
 header {
     position: absolute;
     width: 100%;
-    text-decoration: none;
 }
 
 header a {
@@ -106,7 +105,7 @@ nav {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -118,9 +117,8 @@ nav {
     width: 80%;
     text-align: center;
     font-weight: 100;
-    padding: 20px;
-    border-radius: 0 20% 0 20%;
-    margin-bottom: 100px;
+    padding: 20px;    
+    margin-top: 40px;
 }
 
 #hero-text hr {
@@ -131,12 +129,14 @@ nav {
     margin-left: auto;
 }
 
+#hero-text h6 {
+    line-height: 205%;
+}
+
 #arrow-down {
     position: absolute;
     bottom: 0;
-    left: 50%;
-    right: 50%;
-    padding-bottom: 15px;
+    margin-bottom: 5%;
     color: #ffffff;
     animation: 2s ease-in-out 0s infinite normal both arrowbounce;
 }
@@ -151,4 +151,32 @@ nav {
     100% {
         transform: translateY(0);
     }
+}
+
+#reasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: #EEEEEE;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+#reasons li {
+    list-style-type: none;
+}
+
+#reasons hr {
+    margin: 20px;
+}
+
+#reasons2 {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
