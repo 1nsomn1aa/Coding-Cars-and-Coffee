@@ -1,5 +1,5 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap');
 
 /* CSS Styles Reset*/
 * {
@@ -15,6 +15,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 a {
@@ -64,6 +69,7 @@ header a {
 #nav-active:checked~nav {
     display: block;
 }
+
 #nav-active {
     display: none;
 }
@@ -89,9 +95,11 @@ nav {
     0% {
         transform: scaleY(0)
     }
+
     80% {
         transform: scaleY(1.1)
     }
+
     100% {
         transform: scaleY(1)
     }
@@ -116,7 +124,7 @@ nav {
     width: 80%;
     text-align: center;
     font-weight: 100;
-    padding: 20px;    
+    padding: 20px;
     margin-top: 60px;
 }
 
@@ -148,9 +156,11 @@ nav {
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-10px);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -175,6 +185,11 @@ nav {
     margin: 20px;
 }
 
+#reason-details, #reasons2 p {
+    letter-spacing: 1px;
+    
+}
+
 #reasons2 {
     color: #EEEEEE;
     display: flex;
@@ -182,6 +197,12 @@ nav {
     justify-content: center;
     text-align: center;
     width: 100%;
+    letter-spacing: 2px;
+}
+
+iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #join-us {
