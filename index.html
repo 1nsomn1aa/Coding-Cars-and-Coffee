@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <div id="header-transition">
             <img src="assets/images/logo.png" alt="The Three C's Logo" id="logo" class="logo-animation">
@@ -28,6 +29,7 @@
             </div>
         </div>
     </header>
+    <!-- Main -->
     <main>
         <section id="hero">
             <div id="hero-text">
@@ -47,17 +49,14 @@
             <br>
             <div id="reason-details">
                 <details open>
-                    <summary>
-                        CODING <i class="fa-solid fa-laptop-code"></i>
-                    </summary>
+                    <summary>CODING <i class="fa-solid fa-laptop-code"></i></summary>
                     <br>
-                    <p>Improve your coding skills with fun projects and helpful workshops. You'll be part of a friendly group that encourages creativity and learning.</p>
+                    <p>Improve your coding skills with fun projects and helpful workshops. You'll be part of a friendly
+                        group that encourages creativity and learning.</p>
                     <br>
                 </details>
                 <details open>
-                    <summary>
-                        Cars <i class="fa-solid fa-car"></i>
-                    </summary>
+                    <summary>Cars <i class="fa-solid fa-car"></i></summary>
                     <br>
                     <p>Share your passion for cars with fellow enthusiasts and learn more about car maintenance and
                         performance. Enjoy exciting events, meetups, and the chance to connect with others who love cars
@@ -65,9 +64,7 @@
                     <br>
                 </details>
                 <details open>
-                    <summary>
-                        Coffee <i class="fa-solid fa-mug-hot"></i>
-                    </summary>
+                    <summary>Coffee <i class="fa-solid fa-mug-hot"></i></summary>
                     <br>
                     <p>Unlimited supply of free coffee at all our events for our club members!</p>
                     <br>
@@ -76,7 +73,8 @@
             <hr>
         </section>
         <section id="reasons2">
-            <h2>Still not convinced?</h2>
+            <h2>STILL NOT CONVINCED?</h2>
+            <br>
             <p>Check out this video from our last meet-up!</p>
             <iframe src="https://www.youtube.com/embed/OqvgkmYpSQ4?si=6EdRZyX-XxXbhWLj&amp;start=513"
                 title="YouTube video player" frameborder="0"
@@ -85,25 +83,39 @@
             </iframe>
         </section>
         <section id="join-us">
-            <h2>Join us today and start enjoying the club benefits</h2>
+            <h2>READY TO JOIN?</h2>
+            <br>
             <form action="https://formdump.codeinstitute.net" method="POST">
                 <label for="first-name">First Name</label>
-                <input type="text" name="first-name" required>
+                <input type="text" name="first-name" class="text-field" required>
+                <br>
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" required>
+                <input type="text" name="last-name" class="text-field" required>
+                <br>
                 <label for="email">Email</label>
-                <input type="email" name="email" required>
-                <p>Receive updates about:</p>
-                <label for="Coding">Coding</label>
-                <input type="checkbox" name="Coding" value="coding">
-                <label for="Cars">Cars</label>
-                <input type="checkbox" name="Cars" value="cars">
-                <label for="Coffee">Coffee</label>
-                <input type="checkbox" name="Coffee" value="coffee">
-                <button type="submit">Join Now</button>
+                <input type="email" name="email" class="text-field" required>
+                <br>
+                <div class="checkbox-buttons">
+                    <p>Receive updates about:</p>
+                    <label for="Coding">Coding</label>
+                    <input type="checkbox" name="Coding" value="coding">
+                </div>
+                <div class="checkbox-buttons">
+                    <label for="Cars">Cars</label>
+                    <input type="checkbox" name="Cars" value="cars">
+                </div>
+                <div class="checkbox-buttons">
+                    <label for="Coffee">Coffee</label>
+                    <input type="checkbox" name="Coffee" value="coffee">
+                </div>
+                <p>Suggestions?</p>
+                <textarea name="suggestions-box" id="suggestions-box" cols="20"
+                rows="5">Leave a suggestion here...</textarea>
+                <button type="submit" class="submit-button">JOIN NOW</button>
             </form>
         </section>
     </main>
+    <!-- Footer -->
     <footer>
 
     </footer>
