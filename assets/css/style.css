@@ -19,7 +19,7 @@ body {
 
 p {
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 a {
@@ -112,7 +112,7 @@ nav {
 }
 
 /* Main Content */
-
+/* Hero Section */
 #hero {
     background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/hero.jpg) no-repeat 89% 0% / cover;
     width: 100%;
@@ -172,6 +172,46 @@ nav {
     }
 }
 
+/* Events Section */
+#events {
+    text-align: center;
+    color: #EEEEEE;
+    letter-spacing: 2px;
+}
+
+#events h2 {
+    padding-top: 20px;
+}
+
+#events hr {
+    margin: 20px 40px;
+}
+
+#event1,
+#event2,
+#event3,
+#event4 {
+    text-shadow: 2px 2px 8px #151515, -2px -2px 8px #151515, -2px 2px 8px #151515, 2px -2px 8px #151515;
+}
+
+#event1 {
+    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event1.jpg) no-repeat bottom center / cover;
+
+}
+
+#event2 {
+    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event2.jpg) no-repeat bottom center / cover;
+}
+
+#event3 {
+    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event3.png) no-repeat bottom center / cover;
+}
+
+#event4 {
+    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event4.jpg) no-repeat center center / cover;
+}
+
+/* Reasons Section */
 #reasons {
     display: flex;
     flex-direction: column;
@@ -192,10 +232,11 @@ nav {
     margin: 20px;
 }
 
-#reason-details, #reasons2 p {
+#reason-details,
+#reasons2 p {
     letter-spacing: 1px;
     line-height: 125%;
-    
+
 }
 
 #reasons2 {
@@ -231,10 +272,10 @@ iframe {
 }
 
 .text-field {
-  background-color: transparent;
-  border: 1px solid #EEEEEE;
-  border-radius: 3px;
-  margin: 5px 0;
+    background-color: transparent;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    margin: 5px 0;
 }
 
 .checkbox-buttons {
