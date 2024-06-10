@@ -333,7 +333,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
     color: #EEEEEE;
-    padding: 0 0 0px 0;
+    padding: 0 20px 0 20px;
 
 }
 
