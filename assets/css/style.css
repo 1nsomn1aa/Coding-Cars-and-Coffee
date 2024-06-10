@@ -178,37 +178,40 @@ nav {
     color: #EEEEEE;
     letter-spacing: 2px;
 }
+#events-heading {
+    padding: 20px;
+}
 
 #events h2 {
     padding-top: 20px;
 }
 
 #events hr {
-    margin: 20px 40px;
+    margin: 20px 20px;
 }
 
 #event1,
 #event2,
 #event3,
 #event4 {
-    text-shadow: 2px 2px 8px #151515, -2px -2px 8px #151515, -2px 2px 8px #151515, 2px -2px 8px #151515;
+    padding: 0;
 }
 
 #event1 {
-    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event1.jpg) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.7), rgb(164, 57, 49, 0.4)), url(../images/event1.jpg) no-repeat bottom center / cover;
 
 }
 
 #event2 {
-    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event2.jpg) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.4)), url(../images/event2.jpg) no-repeat bottom center / cover;
 }
 
 #event3 {
-    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event3.png) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.7), rgb(164, 57, 49, 0.4)), url(../images/event3.png) no-repeat bottom center / cover;
 }
 
 #event4 {
-    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/event4.jpg) no-repeat center center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.4)), url(../images/event4.jpg) no-repeat center center / cover;
 }
 
 /* Reasons Section */
@@ -249,9 +252,13 @@ nav {
     letter-spacing: 2px;
 }
 
+#reasons2-heading {
+    margin: 0px 20px 20px 20px;
+}
+
 iframe {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #join-us {
