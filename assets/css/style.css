@@ -280,7 +280,7 @@ iframe {
 .text-field {
     width: 100%;
     background-color: transparent;
-    border: 1px solid #EEEEEE;
+    border: 2px solid #EEEEEE;
     border-radius: 3px;
     margin: 5px 0;
 }
@@ -290,6 +290,7 @@ iframe {
 }
 
 #suggestions-box {
+    width: 100%;
     margin-top: 4px;
     margin-bottom: 10px;
 }
@@ -298,9 +299,14 @@ iframe {
     background-color: transparent;
     color: #EEEEEE;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid #EEEEEE;
+    border: 2px solid #EEEEEE;
     border-radius: 3px;
     padding: 5px;
+}
+
+#form-button {
+    display: flex;
+    justify-content: center;
 }
 
 /* Contact Section */
@@ -309,6 +315,7 @@ iframe {
     text-align: center;
     color: #EEEEEE;
     letter-spacing: 2px;
+    margin: 20px 0 0 0;
 }
 
 #contact hr {
@@ -326,7 +333,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
     color: #EEEEEE;
-    padding: 0 0 10px 0;
+    padding: 0 0 0px 0;
 
 }
 
