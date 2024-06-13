@@ -348,6 +348,15 @@ flex-direction: column;
 
 /* Media Queries */
 
+/* Phones and Smaller (up to 768px) */
+@media screen and (max-width: 768px) {
+
+    #social {
+        display: none;
+    }
+
+}
+
 /* Tablets and Larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -398,9 +407,12 @@ flex-direction: column;
     }
 
     #events-heading hr,
-    #reasons hr,
-    #contact hr {
+    #reasons hr {
         margin: 20px 80px;
+    }
+
+    #contact hr {
+        margin: 0 80px;
     }
 
     #event1,
