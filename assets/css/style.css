@@ -360,6 +360,12 @@ flex-direction: column;
 /* Tablets and Larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    #header-transition {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
     #logo {
         width: 15%;
         margin-left: 15px;
@@ -383,12 +389,6 @@ flex-direction: column;
         justify-content: start;
         margin-top: 0;
     }
-
-    #header-transition {
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 15px;
-    }
     
     .nav-active-label {
         display: none;
@@ -404,6 +404,10 @@ flex-direction: column;
         display: flex;
         margin-right: 15px;
         gap: 10px;
+    }
+
+    #arrow-down {
+        margin-bottom: 3%;
     }
 
     #events-heading hr,
@@ -425,5 +429,49 @@ flex-direction: column;
     #join-us {
         margin: 20px 100px;
         padding: 20px 40px;
+    }
+}
+
+/* Laptops and Larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+    #hero {
+        background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/hero.jpg) no-repeat 50% 50% / cover;
+    }
+
+    #events {
+        flex-wrap: wrap;
+    }
+
+    #event1, 
+    #event2, 
+    #event3, 
+    #event4 {
+        display: inline-block;
+        width: 49%;
+        margin-top: 5px;
+    }
+
+    #events-heading hr,
+    #reasons hr,
+    #contact hr {
+        margin: 20px 280px;
+    }
+
+    #hero-text hr {
+        width: 50%;
+    }
+
+    #reason-details p {
+        padding: 0 100px;
+    }
+
+    iframe {
+        margin: 20px 100px;
+        height: 400px;
+    }
+
+    #join-us {
+        margin: 20px 200px;
     }
 }
