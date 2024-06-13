@@ -194,24 +194,25 @@ nav {
 #event2,
 #event3,
 #event4 {
-    padding: 0;
+    padding: 20px 0;
+    margin-top: 1px;
 }
 
 #event1 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.7), rgb(164, 57, 49, 0.4)), url(../images/event1.jpg) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event1.jpg) no-repeat bottom center / cover;
 
 }
 
 #event2 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.4)), url(../images/event2.jpg) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event2.jpg) no-repeat center center / cover;
 }
 
 #event3 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.7), rgb(164, 57, 49, 0.4)), url(../images/event3.png) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event3.png) no-repeat bottom center / cover;
 }
 
 #event4 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.4)), url(../images/event4.jpg) no-repeat center center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event4.jpg) no-repeat center center / cover;
 }
 
 /* Reasons Section */
@@ -258,6 +259,8 @@ nav {
 iframe {
     margin-top: 20px;
     margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #join-us {
@@ -341,4 +344,74 @@ flex-direction: column;
     text-align: center;
     color: #EEEEEE;
     font-size:x-small;
+}
+
+/* Media Queries */
+
+/* Tablets and Larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    #logo {
+        width: 15%;
+        margin-left: 15px;
+        margin-top: 0;
+    }
+
+    #menu {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    #menu li {
+        background-color: transparent;
+        font-size: 1rem;
+    }
+
+    #menu-div {
+        width: fit-content;
+        justify-content: start;
+        margin-top: 0;
+    }
+
+    #header-transition {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    
+    .nav-active-label {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        margin-top: 0;
+    }
+
+    #social {
+        display: flex;
+        margin-right: 15px;
+        gap: 10px;
+    }
+
+    #events-heading hr,
+    #reasons hr,
+    #contact hr {
+        margin: 20px 80px;
+    }
+
+    #event1,
+    #event2,
+    #event3,
+    #event4 {
+        padding: 40px 0;
+    }
+
+    #join-us {
+        margin: 20px 100px;
+        padding: 20px 40px;
+    }
 }
