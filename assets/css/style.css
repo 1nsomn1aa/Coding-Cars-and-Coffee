@@ -216,7 +216,12 @@ nav {
 }
 
 /* Reasons Section */
-#reasons {
+#about h2 {
+    margin-top: 20px;
+}
+
+#reasons,
+#about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,12 +236,15 @@ nav {
     list-style-type: none;
 }
 
-#reasons hr {
+#reasons hr,
+#about hr {
     margin: 20px;
 }
 
 #reason-details,
-#reasons2 p {
+#reasons2 p,
+#reasons,
+#about {
     letter-spacing: 1px;
     line-height: 125%;
 
@@ -418,7 +426,8 @@ flex-direction: column;
     }
 
     #events-heading hr,
-    #reasons hr {
+    #reasons hr,
+    #about hr {
         margin: 20px 150px;
     }
 
@@ -427,7 +436,8 @@ flex-direction: column;
     }
 
     #reason-details p,
-    #events-heading p {
+    #events-heading p,
+    #about p {
         padding: 0 120px;
     }
 
@@ -470,7 +480,8 @@ flex-direction: column;
 
     #events-heading hr,
     #reasons hr,
-    #contact hr {
+    #contact hr,
+    #about hr {
         margin: 20px 280px;
     }
 
@@ -482,7 +493,8 @@ flex-direction: column;
         padding: 0 300px;
     }
 
-    #reason-details p {
+    #reason-details p,
+    #about p {
         padding: 0 200px;
     }
 
