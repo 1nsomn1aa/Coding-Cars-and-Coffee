@@ -15,6 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #EEEEEE;
 }
 
 p {
@@ -147,14 +148,10 @@ nav {
     font-size: 2.5rem;
 }
 
-#hero-text h6 {
-    line-height: 205%;
-}
-
 #arrow-down {
     position: absolute;
     bottom: 0;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     color: #ffffff;
     animation: 2s ease-in-out 0s infinite normal both arrowbounce;
 }
@@ -179,6 +176,7 @@ nav {
     color: #EEEEEE;
     letter-spacing: 2px;
 }
+
 #events-heading {
     padding: 20px;
 }
@@ -221,6 +219,12 @@ nav {
     margin-top: 20px;
 }
 
+#about img {
+    align-self: center;
+    margin: 10px 0 0 0;
+    width: 150px;
+}
+
 #reasons,
 #about {
     display: flex;
@@ -229,7 +233,6 @@ nav {
     text-align: center;
     width: 100%;
     color: #EEEEEE;
-    letter-spacing: 2px;
     padding: 20px;
 }
 
@@ -244,11 +247,56 @@ nav {
 
 #reason-details,
 #reasons2 p,
-#reasons,
+#reasons h2,
 #about {
     letter-spacing: 1px;
     line-height: 125%;
 
+}
+
+#team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    line-height: 125%;
+}
+
+#team1-cover {
+    background: url(../images/team1.jpg) no-repeat right center / cover;
+}
+
+#team2-cover {
+    background: url(../images/team2.jpg) no-repeat center center / cover;
+}
+
+#team3-cover {
+    background: url(../images/team3.jpg) no-repeat center center / cover;
+}
+
+#team1-cover,
+#team2-cover,
+#team3-cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #EEEEEE;
+}
+
+#team hr {
+    margin: 5px 0;
+    width: 40%;
+}
+
+#team h3 {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#team p {
+    margin-bottom: 20px;    
 }
 
 #reasons2 {
@@ -334,14 +382,16 @@ iframe {
     margin: 0px 40px;
 }
 
-#contact-info, #address {
-display: flex;
-flex-direction: column;
+#contact-info,
+#address {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Footer */
 
-#copyright, #socials {
+#copyright,
+#socials {
     display: flex;
     justify-content: space-between;
     color: #EEEEEE;
@@ -352,7 +402,7 @@ flex-direction: column;
 #disclaimer {
     text-align: center;
     color: #EEEEEE;
-    font-size:x-small;
+    font-size: x-small;
 }
 
 /* Media Queries */
@@ -397,11 +447,15 @@ flex-direction: column;
         justify-content: center;
     }
 
+    #menu-div {
+        margin-top: 0;
+    }
+
     #menu li {
         background-color: transparent;
         font-size: 1rem;
     }
-    
+
     .nav-active-label {
         display: none;
     }
@@ -467,9 +521,9 @@ flex-direction: column;
         flex-wrap: wrap;
     }
 
-    #event1, 
-    #event2, 
-    #event3, 
+    #event1,
+    #event2,
+    #event3,
     #event4 {
         display: inline-block;
         width: 49%;
@@ -507,5 +561,46 @@ flex-direction: column;
 
     #contact {
         margin: 40px 0 0 0;
+    }
+}
+
+/* Large Screens (1200px and up) */
+@media screen and (min-width: 992px) {
+
+    #logo {
+        width: 35%;
+    }
+
+    #menu a,
+    #social {
+        font-size: 20px;
+    }
+
+    #event1,
+    #event2,
+    #event3,
+    #event4 {
+        width: 20%;
+        margin-top: 5px;
+    }
+
+    #events-heading p {
+        padding: 0 500px;
+    }
+
+    #reason-details p,
+    #about p {
+        padding: 0 500px;
+    }
+
+    #events-heading hr,
+    #reasons hr,
+    #contact hr,
+    #about hr {
+        margin: 20px 680px;
+    }
+
+    #hero-text hr {
+        width: 30%;
     }
 }
