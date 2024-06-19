@@ -216,9 +216,7 @@ nav {
 }
 
 /* About / Team / Reason Section */
-#about h2 {
-    margin-top: 20px;
-}
+
 
 #about img {
     align-self: center;
@@ -439,6 +437,10 @@ iframe {
         margin: 10px 10px 0 10px;
     }
 
+    #team-heading h2,
+    #about h2 {
+        margin-top: 20px;
+    }
 }
 
 /* Tablets and Larger (768px and up) */
@@ -514,6 +516,7 @@ iframe {
     #event3,
     #event4 {
         padding: 40px 0;
+        margin: 10px 60px;
     }
 
     #team {
@@ -530,6 +533,7 @@ iframe {
 
     iframe {
         height: 300px;
+        margin: 10px 60px;
     }
 
     #join-us {
@@ -558,8 +562,8 @@ iframe {
     #event3,
     #event4 {
         display: inline-block;
-        width: 49%;
-        margin-top: 5px;
+        width: 40%;
+        margin: 5px 0 0 0;
     }
 
     #events-heading hr,
@@ -726,10 +730,10 @@ iframe {
     #contact hr,
     #about hr,
     #team-heading hr {
-        margin: 20px 650px;
+        margin: 15px 650px;
     }
 
     #join-us {
-        margin: 20px 650px;
+        margin: 70px 650px 20px 650px;
     }
 }
