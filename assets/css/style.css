@@ -195,15 +195,16 @@ nav {
 #event4 {
     padding: 20px 0;
     margin-top: 1px;
+    border-radius: 10px;
 }
 
 #event1 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event1.jpg) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.6), rgb(164, 57, 49, 0.3)), url(../images/event1.jpg) no-repeat bottom center / cover;
 
 }
 
 #event2 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event2.jpg) no-repeat center center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.7), rgb(164, 57, 49, 0.3)), url(../images/event2.jpg) no-repeat center center / cover;
 }
 
 #event3 {
@@ -241,14 +242,18 @@ nav {
 }
 
 #reasons hr,
-#about hr {
+#about hr,
+#reasons2 hr,
+#contact hr {
     margin: 20px;
 }
 
 #reason-details,
 #reasons2 p,
 #reasons h2,
-#about {
+#about,
+#team-heading,
+#team {
     letter-spacing: 1px;
     line-height: 125%;
 }
@@ -291,9 +296,8 @@ nav {
     align-items: center;
 }
 
-#team hr {
-    margin: 5px 0;
-    width: 40%;
+#team-heading hr {
+    margin-bottom: 20px;
 }
 
 #team h3 {
@@ -393,7 +397,7 @@ iframe {
 }
 
 #contact hr {
-    margin: 0px 40px;
+    margin: 20px 40px;
 }
 
 #contact-info,
@@ -493,12 +497,10 @@ iframe {
 
     #events-heading hr,
     #reasons hr,
-    #about hr {
-        margin: 20px 150px;
-    }
-
+    #about hr,
+    #reasons2 hr,
     #contact hr {
-        margin: 0 150px;
+        margin: 20px 150px;
     }
 
     #reason-details p,
@@ -563,7 +565,8 @@ iframe {
     #events-heading hr,
     #reasons hr,
     #contact hr,
-    #about hr {
+    #about hr,
+    #reasons2 hr {
         margin: 20px 280px;
     }
 
@@ -612,11 +615,19 @@ iframe {
         font-size: 20px;
     }
 
+    #hero-text h3 {
+        font-size: 24px;
+    }
+
+    #hero-text h2 {
+        font-size: 50px;
+    }
+
     #event1,
     #event2,
     #event3,
     #event4 {
-        width: 23%;
+        width: 34%;
         margin-top: 5px;
     }
 
@@ -624,14 +635,16 @@ iframe {
     #reason-details p,
     #reasons2 p,
     #about p {
-        padding: 0 400px;
+        padding: 0 300px;
         font-size: 19px;
     }
 
     #events-heading hr,
     #reasons hr,
+    #reasons2 hr,
     #contact hr,
-    #about hr {
+    #about hr,
+    #team-heading hr {
         margin: 20px 450px;
     }
 
@@ -659,8 +672,16 @@ iframe {
         width: 18%;
     }
 
+    #reason-details p {
+        margin: 20px 0 20px 0;
+    }
+
     iframe {
-        margin: 20px 200px;
+        margin: 20px 400px;
+    }
+
+    #join-us {
+        margin: 20px 500px;
     }
 
     form label {
@@ -677,5 +698,38 @@ iframe {
 
     #contact p{
         font-size: 21px;
+    }
+
+    #about,
+    #team-heading,
+    #reasons,
+    #reasons2,
+    #join-us,
+    #contact {
+        margin-top: 70px;
+    }
+}
+
+/* X-Large Screens (1900px and up) */
+@media screen and (min-width: 1900px) {
+
+    #events-heading p,
+    #reason-details p,
+    #reasons2 p,
+    #about p {
+        padding: 0 500px;
+    }
+
+    #events-heading hr,
+    #reasons hr,
+    #reasons2 hr,
+    #contact hr,
+    #about hr,
+    #team-heading hr {
+        margin: 20px 650px;
+    }
+
+    #join-us {
+        margin: 20px 650px;
     }
 }
