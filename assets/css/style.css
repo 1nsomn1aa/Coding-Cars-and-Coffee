@@ -116,7 +116,7 @@ nav {
 /* Main Content */
 /* Hero Section */
 #hero {
-    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/hero.jpg) no-repeat 89% 0% / cover;
+    background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/hero.webp) no-repeat 89% 0% / cover;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -199,20 +199,20 @@ nav {
 }
 
 #event1 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.6), rgb(164, 57, 49, 0.3)), url(../images/event1.jpg) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.6), rgb(164, 57, 49, 0.3)), url(../images/event1.webp) no-repeat bottom center / cover;
 
 }
 
 #event2 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.7), rgb(164, 57, 49, 0.3)), url(../images/event2.jpg) no-repeat center center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.7), rgb(164, 57, 49, 0.3)), url(../images/event2.webp) no-repeat center center / cover;
 }
 
 #event3 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event3.png) no-repeat bottom center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event3.webp) no-repeat bottom center / cover;
 }
 
 #event4 {
-    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event4.jpg) no-repeat center center / cover;
+    background: linear-gradient(90deg, rgb(48, 43, 99, 0.4), rgb(36, 36, 62, 0.8), rgb(164, 57, 49, 0.3)), url(../images/event4.webp) no-repeat center center / cover;
 }
 
 /* About / Team / Reason Section */
@@ -267,15 +267,15 @@ nav {
 }
 
 #team1-cover {
-    background: url(../images/team1.jpg) no-repeat right center / cover;
+    background: url(../images/team1.webp) no-repeat right center / cover;
 }
 
 #team2-cover {
-    background: url(../images/team2.jpg) no-repeat center center / cover;
+    background: url(../images/team2.webp) no-repeat center center / cover;
 }
 
 #team3-cover {
-    background: url(../images/team3.jpg) no-repeat center center / cover;
+    background: url(../images/team3.webp) no-repeat center center / cover;
 }
 
 #team1-cover,
@@ -567,7 +567,7 @@ nav {
     }
 
     #hero {
-        background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/hero.jpg) no-repeat 50% 50% / cover;
+        background: linear-gradient(135deg, rgb(29, 67, 80, 0.6), rgba(164, 57, 49, 0.3)), url(../images/hero.webp) no-repeat 50% 50% / cover;
     }
 
     #events {
