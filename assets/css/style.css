@@ -289,7 +289,9 @@ nav {
     margin-left: auto;
 }
 
-#team1-container {
+#team1-container,
+#team2-container,
+#team3-container {
     justify-content: center;
     align-items: center;
 }
@@ -304,7 +306,7 @@ nav {
 }
 
 #team p {
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 #reasons2 {
@@ -528,7 +530,7 @@ iframe {
     #team2-container,
     #team3-container {
         width: 35%;
-        
+
     }
 
     iframe {
@@ -587,8 +589,8 @@ iframe {
         padding: 0 200px;
     }
 
-    #team1-container, 
-    #team2-container, 
+    #team1-container,
+    #team2-container,
     #team3-container {
         width: 23%;
     }
@@ -670,8 +672,8 @@ iframe {
         font-size: 21px;
     }
 
-    #team1-container, 
-    #team2-container, 
+    #team1-container,
+    #team2-container,
     #team3-container {
         width: 18%;
     }
@@ -692,15 +694,15 @@ iframe {
         font-size: 19px;
     }
 
-    h2{
-        font-size:xx-large;
+    h2 {
+        font-size: xx-large;
     }
 
-    #contact h4{
+    #contact h4 {
         font-size: 22px;
     }
 
-    #contact p{
+    #contact p {
         font-size: 21px;
     }
 

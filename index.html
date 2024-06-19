@@ -125,12 +125,12 @@
                 <h3>Felix Kjellberg</h3>
                 <p>Founder</p>
             </div>
-            <div id="team1-container">
+            <div id="team2-container">
                 <div id="team2-cover"></div>
                 <h3>Alicia Rheinhart</h3>
                 <p>Events Manager</p>
             </div>
-            <div id="team1-container">
+            <div id="team3-container">
                 <div id="team3-cover"></div>
                 <h3>Rose Greatwood</h3>
                 <p>Help Desk</p>
@@ -174,10 +174,9 @@
                 <p>Check out this video from our last meet-up!</p>
             </div>
             <iframe src="https://www.youtube.com/embed/OqvgkmYpSQ4?si=6EdRZyX-XxXbhWLj&amp;start=513"
-                title="YouTube video player" frameborder="0"
+                title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </iframe>
         </section>
         <!-- Join Form -->
         <section id="join-us">
@@ -185,31 +184,31 @@
             <br>
             <form action="https://formdump.codeinstitute.net" method="POST">
                 <label for="first-name">First Name</label>
-                <input type="text" name="first-name" class="text-field" required>
+                <input type="text" id="first-name" name="first-name" class="text-field" required>
                 <br>
                 <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" class="text-field" required>
+                <input type="text" id="last-name" name="last-name" class="text-field" required>
                 <br>
                 <label for="email">Email</label>
-                <input type="email" name="email" class="text-field" required>
+                <input type="email" id="email" name="email" class="text-field" required>
                 <br>
                 <br>
-                <label for="checkbox-buttons">Receive updates about:</label>
-                <div class="checkbox-buttons" name="checkbox-buttons">
+                <label>Receive updates about:</label>
+                <div class="checkbox-buttons">
                     <label for="Events">Events</label>
-                    <input type="checkbox" name="Events" value="yes">
+                    <input type="checkbox" id="Events" name="Events" value="yes">
                 </div>
                 <div class="checkbox-buttons">
                     <label for="News">News</label>
-                    <input type="checkbox" name="News" value="yes">
+                    <input type="checkbox" id="News" name="News" value="yes">
                 </div>
                 <div class="checkbox-buttons">
                     <label for="Offers">Offers</label>
-                    <input type="checkbox" name="Offers" value="yes">
+                    <input type="checkbox" id="Offers" name="Offers" value="yes">
                 </div>
                 <br>
                 <label for="suggestions-box">Suggestions?</label>
-                <textarea name="suggestions-box" id="suggestions-box" cols="20" rows="5"
+                <textarea id="suggestions-box" name="suggestions-box" cols="20" rows="5"
                     placeholder="Leave a suggestion here..."></textarea>
                 <div id="form-button">
                     <button type="submit" class="submit-button"><b>JOIN NOW</b></button>
