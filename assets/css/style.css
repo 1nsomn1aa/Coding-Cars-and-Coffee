@@ -323,7 +323,7 @@ nav {
     margin: 0px 20px 20px 20px;
 }
 
-iframe {
+#youtube-iframe {
     margin-top: 20px;
     margin-bottom: 40px;
     margin-right: 10px;
@@ -406,15 +406,25 @@ iframe {
     flex-direction: column;
 }
 
+#maps-iframe {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    width: 90vw;
+    height: 300px;
+}
+
 /* Footer */
 
-#copyright,
-#socials {
+#copyright {
     display: flex;
     justify-content: space-between;
     color: #EEEEEE;
     padding: 0 20px 0 20px;
+}
 
+#copyright a {
+    margin: 0 2px;
 }
 
 #disclaimer {
@@ -533,7 +543,7 @@ iframe {
 
     }
 
-    iframe {
+    #youtube-iframe {
         height: 300px;
         margin: 10px 60px;
     }
@@ -541,6 +551,11 @@ iframe {
     #join-us {
         margin: 20px 150px;
         padding: 20px 60px;
+    }
+
+    #maps-iframe {
+        width: 80vw;
+        height: 300px;
     }
 }
 
@@ -595,7 +610,7 @@ iframe {
         width: 23%;
     }
 
-    iframe {
+    #youtube-iframe {
         margin: 20px 100px;
         height: 400px;
     }
@@ -606,6 +621,10 @@ iframe {
 
     #contact {
         margin: 40px 0 0 0;
+    }
+
+    #maps-iframe {
+        height: 400px;
     }
 }
 
@@ -682,7 +701,7 @@ iframe {
         margin: 20px 0 20px 0;
     }
 
-    iframe {
+    #youtube-iframe {
         margin: 20px 400px;
     }
 
@@ -713,6 +732,11 @@ iframe {
     #join-us,
     #contact {
         margin-top: 70px;
+    }
+
+    #maps-iframe {
+        width: 50vw;
+        height: 500px;
     }
 }
 
