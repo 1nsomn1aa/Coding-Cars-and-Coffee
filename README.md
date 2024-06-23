@@ -1,114 +1,196 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Tomas Šerpenskas,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![logo3](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/f47e9300-db5c-4f6f-8dda-454eb3a9cf08)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
 
-## Gitpod Reminders
+# The Three C's Club
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+The main goal of this website is to create a community where enthusiasts of coding and cars can come together to learn, connect, and share their passions in a relaxed and friendly environment. It informs the club members of upcoming events and helps them find other useful information, like contact or location details.
 
-A blue button should appear to click: _Make Public_,
+*Why Coffee?*
 
-Another blue button should appear to click: _Open Browser_.
+Well, one of the main ingredients in every car show or coding session is Coffee! Most car enthusiasts or coders cannot live without coffee. 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+That's why the club is called The Three C's.
 
-A blue button should appear to click: _Make Public_,
+**Coding, Cars and Coffee!**
 
-Another blue button should appear to click: _Open Browser_.
+[Link to the Three C's Club](https://1nsomn1aa.github.io/Coding-Cars-and-Coffee/index.html)
+![amiresponsive](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/fcbdd056-6d9b-43c4-b0f6-e957a748276e)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+**Design**
 
-------
+The website was created with a focus on simplicity. The hero section was created in full viewport height and provides a lot of visual feedback from the fullscreen image of the car. That's why only two colors were selected for the color palette.
 
-## Release History
+![colorpalette](https://github.com/1nsomn1aa/love-running2/assets/168423322/f285851b-21d2-46e1-8d2d-6f232645311e)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+To increase vibrancy accross other ares of the page, gradient was used on some images and containers.
 
-**May 28 2024:** Fix Mongo and Links installs
+![gradient](https://github.com/1nsomn1aa/love-running2/assets/168423322/1b0edbb2-81c5-4634-87d7-ed729f733b40)
 
-**April 26 2024:** Update node version to 16
+**Typography**
 
-**September 20 2023:** Update Python version to 3.9.17.
+Initially only 'Russo One' font was selected for the entire website, but later 'Roboto' replaced it in paragraphs, because the initial font was quite hard to read in smaller sizes.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![fonts](https://github.com/1nsomn1aa/love-running2/assets/168423322/72243609-4b97-42ae-ad84-f53f031e2edb)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**Navigation Bar**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The desktop navigation bar uses a minimalistic transparent design with white letters and 'Russo One' font from Google Fonts. On the left side it has the club's logo (which is also used as a link to the homepage) and on the right - social media links.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![navdesktop](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/c23ea56f-9de0-4a88-bec3-484adf4c0bf4)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+*On page load the entire navigation section drops down to it's assigned location.*
+![navanimationdesktop](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/468b75b0-9cd4-4f66-80ce-ffaf9a110b28)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The mobile navigation bar uses an even more minimalistic design and only shows the club's logo while the actual menu is hidden until the dropdown menu is activated using the burger icon.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![mobilenav](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/a3aa8f81-6cf3-4d7f-8366-52333e01d423)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+*Dropdown activation and transitions*
+![mobilenavbar](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/19f4c23f-8810-428d-8d6a-19d748ec1534)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Hero Section**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The hero section uses a picture of a car in full viewport height with a transparent gradient on top. The middle of the hero section has a welcome message to greet users.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+*Desktop version*
+![headerdesktop](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/807cde11-e1b8-4073-b6b0-9fa95f586cf0)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+*Mobile Version*
+![headermobile](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/ec3db39d-924b-4fc6-9c7d-b8a6a74c072c)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+At the bottom of the hero section there is a bouncing arrow suggesting to scroll down. It can also be clicked to be immediately taken down to the next section.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+*Bouncing Arrow*
+![arrowbounce](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/f684f17b-46b1-4cd0-bf4f-b9656f9efad5)
 
-------
+**Events Section**
 
-## FAQ about the uptime script
+The events section displays key information for club members - event title, location, time, and date. Every event is displayed with a picture that matches the event idea and a gradient overlay to increase readability.
 
-**Why have you added this script?**
+![eventsresponsive](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/b41417db-c3f0-4c88-b386-6dd45302d75f)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+**About Us Section**
 
-**How will this affect me?**
+The about us section provides information about the club, it's managing team, reasons to join and a video of the last club meet-up.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The design of this section is kept consistent accross the entire website. Using two fonts, 'Russo One' for headings and 'Roboto' for paragraphs. There are horizontal rulers after every heading to show clear separation between different areas of the about section.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![about](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/0c3a0600-a821-414e-ad3e-ffa273f78b3b)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+**Join Us Form**
 
-**So….?**
+The form provides the users an ability to become members by filling in their details. The form uses validation and does not allow submission if the first name or the last name fields are empty, also checks if there is an "@" symbol in the email address. The updates and the suggestions fields are optional. The form has been tested by using "formdump.codeinstitute.net" address and functions perfectly.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The design of the form is consistent with the simplistic theme of the website with the same gradient overlay as the hero section and white text.
 
-**Can I opt out?**
+![joinus](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/228954bf-ff59-4c79-83a8-b82eee3a5ce7)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**Contact Section**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Lastly, the contact section informs of the club's address and provides a clickable telephone number and email address. Once clicked or pressed on the telephone number, most operating systems should open the default application for making calls and input the telephone number automatically. The same applies to the email address. 
 
-**Anything more?**
+To save time from copying and pasting the address, a Google Maps iframe is provided with the location.
+ ![contact](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/eacbecc5-edf4-436e-bd5c-c76d24caf011)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+## Validator Testing
 
-Happy coding!
+The code of the **deployed** website was checked for errors using the official W3C Markup Validation Service:
+
+*CSS Direct*
+![w3cssdirect](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/100ab849-4fe4-40b5-8e07-c9086013084a)
+
+*CSS URL*
+![w3cssurl](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/31bd8f5e-40dd-4d6e-85af-b5d8d040e417)
+
+*HTML Direct*
+![w3htmldirect](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/f45039c7-02a3-4c26-a831-d07c58143acf)
+
+*HTML URL*
+![w3htmlurl](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/b1bc77fd-6556-488c-aaf0-b8ab32afb1d4)
+## Testing
+
+I used **Chrome DevTools Lighthouse** test to establish scores for *performance*, *accessibility*, *best practices* and *SEO* of my **deployed** website.
+
+Here are the results:
+
+**Lighthouse Tests for Desktop**
+
+*Test 1*
+![desktop1](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/5fd64b3b-d52f-471d-b682-b1af4e507e2c)
+*Test 2*
+![desktop2](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/614b6fc6-06a7-4881-8b7b-292ddd55678b)
+*Test 3*
+![desktop3](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/8e279fe6-406a-482c-82de-ff31f9230ca7)
+
+**Lighthouse Tests for Mobile**
+
+*Test 1*
+![mobile1](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/2a8534dd-0635-47bd-9aec-26d6df318a66)
+*Test 2*
+![mobile2](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/3ab0b665-3e53-4dd2-8791-a7fd41783fd8)
+*Test 3*
+![mobile3](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/bdbfc6e5-5e92-4968-9a87-4d321eabfe63)
+
+### Compatibility and Responsitivity Testing
+
+I've tested the website accross multiple browsers to check for compatibility and responsitivity. No issues were found.
+
+| Browser            | Version | Result |
+| ------------------ | ------- | ------ |
+| *Desktop*          |         |        |
+| Chrome             | 126     | ✓      |
+| Firefox            | 124     | ✓      |
+| Opera              | 108     | ✓      |
+| Edge               | 122     | ✓      |
+| *Android*          |         |        |
+| Chrome             | 125     | ✓      |
+| Samsung Internet   | 25      | ✓      |
+
+
+
+## Bugs
+
+During the development phase I've encountered a few bugs, most of them were because of duplications or grammatical mistakes. They were rectified and commited to github for version control.
+
+To see bug fixes on my GitHub repository follow [this](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/commits/main/) link.
+
+To my knowledge, there are currently no bugs on the website.
+## Deployment
+
+This website has been deployed to GitHub Pages. The steps I took to do this are outlined below. 
+
+- [x]   Navigate to your repository
+- [x]   Click on the "Settings" tab at the top of the screen
+- [x]   Find the "Code and Automation" section and within it click on "Pages"
+- [x]   In the "Branch" section find the dropdown menu and click on it
+- [x]   Select the branch you'd like to deploy to GitHub Pages and click save!
+
+[Link to the Three C's Club](https://1nsomn1aa.github.io/Coding-Cars-and-Coffee/index.html)
+## Credits
+
+**Images**
+- Logo has been created using Photoshop and 'Rumble Sport Athletic' font.
+- Hero picture is from my personal photography porftolio.
+- Events and Team images are a mixture of personal and [PixaBay](https://pixabay.com/), [Pexels](https://pexels.com/), [UnSplash](https://www.unsplash.com), and [freepik](https://www.freepik.com).
+
+**Video**
+- [YouTube](https://youtube.com/) video by [Hartnett Media](https://www.youtube.com/@hartnettmedia)
+
+
+**Other Resources**
+
+- Beautiful gradients by [uiGradients](https://uigradients.com/)
+- HTML/CSS questions [W3Schools](https://www.w3schools.com/), [freecodecamp](https://freecodecamp.org/) and the [Love Running](https://1nsomn1aa.github.io/love-running2/) project.
+- Icons [FontAwesome](https://www.fontawesome.com/)
+- Fonts [GoogleFonts](https://www.fonts.google.com/)
+- Code Editor [GitPod](https://gitpod.io/)
+- Cloud Storage [GitHub](https://github.com/)
+- Deployment [GitHub Pages](https://pages.github.com/)
