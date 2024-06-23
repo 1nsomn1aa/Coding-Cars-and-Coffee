@@ -46,6 +46,7 @@ The desktop navigation bar uses a minimalistic transparent design with white let
 ![navdesktop](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/c23ea56f-9de0-4a88-bec3-484adf4c0bf4)
 
 *On page load the entire navigation section drops down to it's assigned location.*
+
 ![navanimationdesktop](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/468b75b0-9cd4-4f66-80ce-ffaf9a110b28)
 
 The mobile navigation bar uses an even more minimalistic design and only shows the club's logo while the actual menu is hidden until the dropdown menu is activated using the burger icon.
@@ -53,6 +54,7 @@ The mobile navigation bar uses an even more minimalistic design and only shows t
 ![mobilenav](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/a3aa8f81-6cf3-4d7f-8366-52333e01d423)
 
 *Dropdown activation and transitions*
+
 ![mobilenavbar](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/19f4c23f-8810-428d-8d6a-19d748ec1534)
 
 **Hero Section**
@@ -60,14 +62,17 @@ The mobile navigation bar uses an even more minimalistic design and only shows t
 The hero section uses a picture of a car in full viewport height with a transparent gradient on top. The middle of the hero section has a welcome message to greet users.
 
 *Desktop version*
+
 ![headerdesktop](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/807cde11-e1b8-4073-b6b0-9fa95f586cf0)
 
 *Mobile Version*
+
 ![headermobile](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/ec3db39d-924b-4fc6-9c7d-b8a6a74c072c)
 
 At the bottom of the hero section there is a bouncing arrow suggesting to scroll down. It can also be clicked to be immediately taken down to the next section.
 
 *Bouncing Arrow*
+
 ![arrowbounce](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/f684f17b-46b1-4cd0-bf4f-b9656f9efad5)
 
 **Events Section**
@@ -97,23 +102,27 @@ The design of the form is consistent with the simplistic theme of the website wi
 Lastly, the contact section informs of the club's address and provides a clickable telephone number and email address. Once clicked or pressed on the telephone number, most operating systems should open the default application for making calls and input the telephone number automatically. The same applies to the email address. 
 
 To save time from copying and pasting the address, a Google Maps iframe is provided with the location.
- ![contact](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/eacbecc5-edf4-436e-bd5c-c76d24caf011)
 
+![contact](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/eacbecc5-edf4-436e-bd5c-c76d24caf011)
 
 ## Validator Testing
 
 The code of the **deployed** website was checked for errors using the official W3C Markup Validation Service:
 
 *CSS Direct*
+
 ![w3cssdirect](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/100ab849-4fe4-40b5-8e07-c9086013084a)
 
 *CSS URL*
+
 ![w3cssurl](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/31bd8f5e-40dd-4d6e-85af-b5d8d040e417)
 
 *HTML Direct*
+
 ![w3htmldirect](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/f45039c7-02a3-4c26-a831-d07c58143acf)
 
 *HTML URL*
+
 ![w3htmlurl](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/b1bc77fd-6556-488c-aaf0-b8ab32afb1d4)
 ## Testing
 
@@ -124,19 +133,29 @@ Here are the results:
 **Lighthouse Tests for Desktop**
 
 *Test 1*
+
 ![desktop1](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/5fd64b3b-d52f-471d-b682-b1af4e507e2c)
+
 *Test 2*
+
 ![desktop2](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/614b6fc6-06a7-4881-8b7b-292ddd55678b)
+
 *Test 3*
+
 ![desktop3](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/8e279fe6-406a-482c-82de-ff31f9230ca7)
 
 **Lighthouse Tests for Mobile**
 
 *Test 1*
+
 ![mobile1](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/2a8534dd-0635-47bd-9aec-26d6df318a66)
+
 *Test 2*
+
 ![mobile2](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/3ab0b665-3e53-4dd2-8791-a7fd41783fd8)
+
 *Test 3*
+
 ![mobile3](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/bdbfc6e5-5e92-4968-9a87-4d321eabfe63)
 
 ### Compatibility and Responsitivity Testing
