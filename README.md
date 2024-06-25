@@ -29,19 +29,19 @@ The website was created with a focus on simplicity. The hero section was created
 
 ![colorpalette](https://github.com/1nsomn1aa/love-running2/assets/168423322/f285851b-21d2-46e1-8d2d-6f232645311e)
 
-To increase vibrancy accross other ares of the page, gradient was used on some images and containers.
+To increase vibrancy across other areas of the page, gradient was used on some images and containers.
 
 ![gradient](https://github.com/1nsomn1aa/love-running2/assets/168423322/1b0edbb2-81c5-4634-87d7-ed729f733b40)
 
 **Typography**
 
-Initially only 'Russo One' font was selected for the entire website, but later 'Roboto' replaced it in paragraphs, because the initial font was quite hard to read in smaller sizes.
+Initially, only 'Russo One' font was selected for the entire website, but later 'Roboto' replaced it in paragraphs, because the initial font was quite hard to read in smaller sizes.
 
 ![fonts](https://github.com/1nsomn1aa/love-running2/assets/168423322/72243609-4b97-42ae-ad84-f53f031e2edb)
 
 **Navigation Bar**
 
-The desktop navigation bar uses a minimalistic transparent design with white letters and 'Russo One' font from Google Fonts. On the left side it has the club's logo (which is also used as a link to the homepage) and on the right - social media links.
+The desktop navigation bar uses a minimalistic transparent design with white letters and 'Russo One' font from Google Fonts. On the left side, it has the club's logo (which is also used as a link to the homepage) and on the right - social media links.
 
 ![navdesktop](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/c23ea56f-9de0-4a88-bec3-484adf4c0bf4)
 
@@ -69,7 +69,7 @@ The hero section uses a picture of a car in full viewport height with a transpar
 
 ![headermobile](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/ec3db39d-924b-4fc6-9c7d-b8a6a74c072c)
 
-At the bottom of the hero section there is a bouncing arrow suggesting to scroll down. It can also be clicked to be immediately taken down to the next section.
+At the bottom of the hero section, there is a bouncing arrow suggesting to scroll down. It can also be clicked to be immediately taken down to the next section.
 
 *Bouncing Arrow*
 
@@ -85,13 +85,13 @@ The events section displays key information for club members - event title, loca
 
 The about us section provides information about the club, it's managing team, reasons to join and a video of the last club meet-up.
 
-The design of this section is kept consistent accross the entire website. Using two fonts, 'Russo One' for headings and 'Roboto' for paragraphs. There are horizontal rulers after every heading to show clear separation between different areas of the about section.
+The design of this section is kept consistent across the entire website. Using two fonts, 'Russo One' for headings and 'Roboto' for paragraphs. There are horizontal rulers after every heading to show clear separation between different areas of the about section.
 
 ![about](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/assets/168423322/0c3a0600-a821-414e-ad3e-ffa273f78b3b)
 
 **Join Us Form**
 
-The form provides the users an ability to become members by filling in their details. The form uses validation and does not allow submission if the first name or the last name fields are empty, also checks if there is an "@" symbol in the email address. The updates and the suggestions fields are optional. The form has been tested by using "formdump.codeinstitute.net" address and functions perfectly.
+The form provides users the ability to become members by filling in their details. The form uses validation and does not allow submission if the first or the last name fields are empty, also checks if there is an "@" symbol in the email address. The updates and the suggestions fields are optional. The form has been tested by using "formdump.codeinstitute.net" address and functions perfectly.
 
 The design of the form is consistent with the simplistic theme of the website with the same gradient overlay as the hero section and white text.
 
@@ -99,7 +99,7 @@ The design of the form is consistent with the simplistic theme of the website wi
 
 **Contact Section**
 
-Lastly, the contact section informs of the club's address and provides a clickable telephone number and email address. Once clicked or pressed on the telephone number, most operating systems should open the default application for making calls and input the telephone number automatically. The same applies to the email address. 
+Lastly, the contact section informs of the club's address and provides a clickable telephone number and email address. Once clicked or pressed on the telephone number, most operating systems will open the default application for making calls and input the telephone number automatically. The same applies to the email address. 
 
 To save time from copying and pasting the address, a Google Maps iframe is provided with the location.
 
@@ -160,7 +160,7 @@ Here are the results:
 
 ### Compatibility and Responsitivity Testing
 
-I've tested the website accross multiple browsers to check for compatibility and responsitivity. No issues were found.
+I've tested the website across multiple browsers to check for compatibility and responsitivity. No issues were found.
 
 | Browser            | Version | Result |
 | ------------------ | ------- | ------ |
@@ -177,7 +177,7 @@ I've tested the website accross multiple browsers to check for compatibility and
 
 ## Bugs
 
-During the development phase I've encountered a few bugs, most of them were because of duplications or grammatical mistakes. They were rectified and commited to github for version control.
+During the development phase I encountered a few bugs, most of them were because of duplications or grammatical mistakes. They were rectified and commited to github for version control.
 
 To see bug fixes on my GitHub repository follow [this](https://github.com/1nsomn1aa/Coding-Cars-and-Coffee/commits/main/) link.
 
@@ -197,7 +197,7 @@ This website has been deployed to GitHub Pages. The steps I took to do this are 
 
 **Images**
 - Logo has been created using Photoshop and 'Rumble Sport Athletic' font.
-- Hero picture is from my personal photography porftolio.
+- Hero picture is from my personal photography portfolio.
 - Events and Team images are a mixture of personal and [PixaBay](https://pixabay.com/), [Pexels](https://pexels.com/), [UnSplash](https://www.unsplash.com), and [freepik](https://www.freepik.com).
 
 **Video**
